@@ -13,6 +13,10 @@ namespace CSharpEducationCamp301.EntityLayer.Concrete
         public int ProductStock { get; set; }
         public decimal ProductPrice { get; set; }
         public string ProductDescription { get; set; }
+        public int CategoryId { get; set; }
+        public virtual Category Category { get; set; } // virtual .Net core da yok .Net framework projelerinde kullanılıyor.
+        public List<Order> Orders { get; set; }
+
 
     }
 }
