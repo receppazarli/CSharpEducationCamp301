@@ -43,5 +43,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSharpEducationCamp301.DataAccessLayer\CSharpEducationCamp301.DataAccessLayer.csproj">
+      <Project>{6cabfde0-3fdd-4032-be04-1a9f61ff0838}</Project>
+      <Name>CSharpEducationCamp301.DataAccessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
